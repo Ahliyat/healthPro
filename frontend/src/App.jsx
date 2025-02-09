@@ -1,8 +1,13 @@
+import  LandingPage from "./pages/LandingPage/LandingPage";
+import "./App.css";
 
-import './App.css'
-
-function App() {
+const App = () => {
+  return (
+    <>
+      <LandingPage />;
  
-}
+    </>
+  );
 
-export default App
+};
+export default App;
